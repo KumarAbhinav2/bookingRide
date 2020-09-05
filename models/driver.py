@@ -4,7 +4,7 @@ from models.user import User
 class Driver(User):
 
     def __init__(self):
-        self.isAvailable = True
+        self.isavailable = True
         self.vehicle = None
 
     def getVehicle(self):
@@ -14,7 +14,7 @@ class Driver(User):
         self.vehicle = vehicle
 
     def isAvailable(self):
-        return self.isAvailable
+        return self.isavailable
 
     def setAvailable(self, isavailable):
         self.isAvailable = isavailable
