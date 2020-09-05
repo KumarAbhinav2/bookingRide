@@ -1,5 +1,7 @@
 # bookingRide
 
+## Machine code for Ride Booking app:
+
 Scenario:
 
 You have drivers and customers with their basic details and lat, long. 
